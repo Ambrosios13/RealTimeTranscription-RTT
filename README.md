@@ -6,7 +6,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Whisper](https://img.shields.io/badge/OpenAI-Whisper-green.svg)](https://github.com/openai/whisper)
 
-Uma aplicação desktop para transcrição de áudio em tempo real usando modelos Whisper da OpenAI, com interface gráfica intuitiva desenvolvida em PyQt6.
+MVP (Minimun Viable Product) para transcrição de áudio em tempo real usando modelos Whisper da OpenAI, com interface gráfica intuitiva desenvolvida em PyQt6.
 
 ![RTT Screenshot](https://via.placeholder.com/800x450.png?text=RealTimeTranscription+Screenshot)
 
