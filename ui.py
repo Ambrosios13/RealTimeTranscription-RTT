@@ -28,7 +28,7 @@ class ModelLoaderThread(QThread):
 class TranscriptionApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Transcrição em Tempo Real")
+        self.setWindowTitle("RealTimeTranscription")
         self.setMinimumSize(600, 500)  # Aumentado para acomodar novos controles
 
         self.audio_queue = queue.Queue()
