@@ -123,6 +123,3 @@ A aplicação funciona dividindo o fluxo de áudio em chunks de 5 segundos, que 
 
 **Solução**: Tente usar um modelo menor (tiny ou base) ou ative o processamento por GPU se disponível.
 
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
