@@ -1,5 +1,0 @@
-PyQt6==6.6.1
-sounddevice==0.4.6
-openai-whisper==20231117
-torch==2.2.1
-qdarkstyle==3.2.0
