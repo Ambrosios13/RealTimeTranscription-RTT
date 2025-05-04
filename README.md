@@ -50,7 +50,12 @@ source venv/bin/activate
 
 3. Instale as dependências:
 ```bash
-pip install -r requirements.txt
+pip install PyQt6
+pip install sounddevice
+pip install torch
+pip install openai-whisper
+pip install numpy
+pip install qdarkstyle
 ```
 
 4. Execute a aplicação:
@@ -94,7 +99,6 @@ RealTimeTranscription-RTT/
 ├── transcriber.py       # Motor de transcrição com Whisper
 ├── audio_recorder.py    # Captura e processamento de áudio
 ├── config.py            # Configurações globais
-├── requirements.txt     # Dependências necessárias
 ├── .gitignore           # Arquivos ignorados pelo Git
 ├── LICENSE              # Arquivo de licença MIT
 └── README.md            # Este arquivo
