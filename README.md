@@ -112,12 +112,15 @@ A aplicação funciona dividindo o fluxo de áudio em chunks de 5 segundos, que 
 ## 🤔 Solução de Problemas
 
 **Problema**: Não detecta meu microfone.
+
 **Solução**: Verifique se o microfone está conectado e funcionando. Talvez seja necessário reiniciar a aplicação.
 
 **Problema**: Erro ao carregar modelo Whisper.
+
 **Solução**: Verifique sua conexão com a internet e se há espaço disponível no disco. Os modelos maiores requerem download e espaço substancial.
 
 **Problema**: Transcrição muito lenta.
+
 **Solução**: Tente usar um modelo menor (tiny ou base) ou ative o processamento por GPU se disponível.
 
 ## 📄 Licença
