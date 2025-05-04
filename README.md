@@ -94,6 +94,7 @@ RealTimeTranscription-RTT/
 ├── transcriber.py       # Motor de transcrição com Whisper
 ├── audio_recorder.py    # Captura e processamento de áudio
 ├── config.py            # Configurações globais
+├── requirements.txt     # Dependências necessárias
 ├── .gitignore           # Arquivos ignorados pelo Git
 ├── LICENSE              # Arquivo de licença MIT
 └── README.md            # Este arquivo
@@ -107,14 +108,6 @@ A aplicação funciona dividindo o fluxo de áudio em chunks de 5 segundos, que 
 - Taxa de amostragem: 16kHz (formato padrão para Whisper)
 - Duração do chunk: 5 segundos
 - Formato de gravação: WAV mono 16-bit
-
-## 📈 Roadmap de Desenvolvimento
-
-- [ ] Adicionar suporte para mais idiomas
-- [ ] Implementar exportação de texto para diversos formatos
-- [ ] Adicionar reconhecimento de pontuação automática
-- [ ] Implementar identificação de falantes
-- [ ] Adicionar opção de tradução em tempo real
 
 ## 🤔 Solução de Problemas
 
@@ -130,10 +123,3 @@ A aplicação funciona dividindo o fluxo de áudio em chunks de 5 segundos, que 
 ## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 🙏 Agradecimentos
-
-- [OpenAI Whisper](https://github.com/openai/whisper) pelo incrível modelo de reconhecimento de fala
-- [PyQt6](https://www.riverbankcomputing.com/software/pyqt/) pela biblioteca de interface gráfica
-- [sounddevice](https://python-sounddevice.readthedocs.io/) pela captura de áudio
-- [QDarkStyle](https://github.com/ColinDuquesnoy/QDarkStyleSheet) pelo tema escuro
