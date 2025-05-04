@@ -94,7 +94,8 @@ RealTimeTranscription-RTT/
 ├── transcriber.py       # Motor de transcrição com Whisper
 ├── audio_recorder.py    # Captura e processamento de áudio
 ├── config.py            # Configurações globais
-├── requirements.txt     # Dependências do projeto
+├── .gitignore           # Arquivos ignorados pelo Git
+├── LICENSE              # Arquivo de licença MIT
 └── README.md            # Este arquivo
 ```
 
