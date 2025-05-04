@@ -8,7 +8,7 @@
 
 MVP (Minimum Viable Product) para transcrição de áudio em tempo real usando modelos Whisper da OpenAI, com interface gráfica intuitiva desenvolvida em PyQt6.
 
-![RTT Screenshot](https://via.placeholder.com/800x450.png?text=RealTimeTranscription+Screenshot)
+![RTT Screenshot](image.png)
 
 ## 🌟 Características
 
